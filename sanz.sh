@@ -772,7 +772,7 @@ echo "Banner /etc/banner.txt" >>/etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/banner.txt"@g' /etc/default/dropbear
 
 # Ganti Banner
-wget -O /etc/banner.txt "${REPO}banner/issue.net"
+wget -O /etc/kyt.txt "${REPO}banner/issue.net"
 print_success "Fail2ban"
 }
 
