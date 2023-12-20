@@ -21,7 +21,7 @@ fun_bar() {
     echo -ne "  \033[0;33mPlease Wait Loading \033[1;37m- \033[0;33m["
     while true; do
         for ((i = 0; i < 18; i++)); do
-            echo -ne "\033[1;32m="
+            echo -ne "\033[0;32m#"
             sleep 0.1s
         done
         [[ -e $HOME/fim ]] && rm $HOME/fim && break
@@ -35,8 +35,8 @@ fun_bar() {
     tput cnorm
 }
 res1() {
-    wget https://raw.githubusercontent.com/LunaticTunnel/Azerd/ABSTRAK/Features/menu.zip
-    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/LunaticTunnel/Azerd/ABSTRAK/enc/encrypt" ; chmod +x /usr/bin/enc
+    wget https://raw.githubusercontent.com/sanzVPN/Azerd/ABSTRAK/Features/menu.zip
+    wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/sanzVPN/Azerd/ABSTRAK/enc/encrypt" ; chmod +x /usr/bin/enc
     7z e -paskykenza123 menu.zip
     unzip menu.zip
     chmod +x menu/*
@@ -48,11 +48,13 @@ res1() {
 }
 netfilter-persistent
 clear
-echo -e "\033[95m┌─────────────────────────────────┐\033[0m"
-echo -e "\033[96;1m             UPDATE SCRIPT SUCCESS           "
-echo -e "\033[95m└─────────────────────────────────┘\033[0m"
+echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e " \e[1;97;101m          UPDATE SCRIPT       \e[0m"
+echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
-echo -e "\033[1;92m Akan Di arahkan Ke menu Dalam 3 Detik"
-sleep 3
-clear
+echo -e "  \033[1;91m update script service\033[1;37m"
+fun_bar 'res1'
+echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e ""
+read -n 1 -s -r -p "Press [ Enter ] to back on menu"
 menu
