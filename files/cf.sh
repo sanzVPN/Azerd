@@ -6,7 +6,7 @@ echo -e " "
 echo -e "\033[93;1m==============================\033[0m"
 echo -e "\033[96;1m     INPUT YOUR DOMAIN "
 echo -e "\033[93;1m==============================\033[0m"
-exho -e " "
+echo -e " "
 read -p "INPUT YOUR SUBDOMAIN contoh( lwnwwjwk ):  " domen
 DOMAIN=mypremium.biz.id
 sub=${domen}
