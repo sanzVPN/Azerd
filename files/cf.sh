@@ -1,4 +1,4 @@
-#!/bin/bash#!/bin/bash
+#!/bin/bash
 MYIP=$(wget -qO- icanhazip.com);
 apt install jq curl -y
 clear
