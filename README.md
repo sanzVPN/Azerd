@@ -11,6 +11,8 @@
 ### PERINTAH UPDATE 
 <pre><code>wget https://raw.githubusercontent.com/sanzVPN/Azerd/ABSTRAK/files/update.sh && chmod +x update.sh && ./update.sh</code></pre>
 
+### INSTALL BOT
+<pre><code>wget https://raw.githubusercontent.com/sanzVPN/Azerd/ABSTRAK/bot/bot.sh && chmod +x bot.sh && ./bot.sh</code></pre>
 ### TESTED ON OS 
 - UBUNTU 20
 - DEBIAN 10 ( Recomended )
