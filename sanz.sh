@@ -1,6 +1,6 @@
 # --------------------------------------------------
 # ENCRYPTED BY SANZ TUNNEL
-# Github   : http://github.com/sanzVPM
+# Github   : http://github.com/sanzVPN
 # Facebook : http://facebook.com/sanz
 # Telegram : http://t.me/sanzstore
 # --------------------------------------------------
